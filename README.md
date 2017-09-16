@@ -1,6 +1,6 @@
 # sensor-viewer
 is a simple data viewer.  
-This reads sensory data from DB and show plot.
+This reads sensory data from DB and plot it.
 
 # requirements
 - httpd works with php
