@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta http-equiv="Content-type" content="text/html; charset=UTF-8">
+  <link rel="stylesheet" href="dygraph.css">
+  <title>light sensor viewer</title>
+  <script type="text/javascript" src="dygraph.js"></script>
+ </head>
+ <body>
+  <h1>light sensor at home</h1>
+  <div id="graph" style="width:100%"></div>
+  <script type="text/javascript">
+    container = document.getElementById("graph");
+    g = new Dygraph(
+        // containing div
+        container,
+        // CSV or path to a CSV file.
+        "data.php"
+    );
+  </script>
+ </body>
+</html>
